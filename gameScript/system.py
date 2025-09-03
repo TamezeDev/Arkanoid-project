@@ -99,7 +99,7 @@ def random_sound_generator():
     Returns:
         mp3: track random
     """
-    random_num = random.randrange(0,4)
+    random_num = random.randrange(0,len(tracks_game))
     random_sound = tracks_game[random_num]
     return random_sound
 

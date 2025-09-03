@@ -7,7 +7,7 @@ pygame.init()
 pygame.mixer.init()
 
 #Window title
-pygame.display.set_caption("Arcanoid")
+pygame.display.set_caption("ArKanoid")
 
 #Game start
 background = gameScript.system.background_generator()
